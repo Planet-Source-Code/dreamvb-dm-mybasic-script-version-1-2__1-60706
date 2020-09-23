@@ -1,0 +1,26 @@
+DIM Option As Variant
+CLS
+PRINT "--------------------"
+PRINT "1 Play a Beep"
+PRINT "2 Clear Screen"
+PRINT "3 Exit.."
+PRINT "--------------------"
+
+INPUT "Enter a Option",Option
+
+SELECT CASE Option
+    Case 1
+        BEEP
+        Exit
+    Case 2
+        CLS
+        Exit
+    Case 3
+       END
+       Exit
+    Case else
+        PRINT "Item not in list"
+        PAUSE
+END SELECT
+
+END

@@ -1,0 +1,11 @@
+REM Example of a Do While
+Dim Counter As Integer
+
+Do While Counter > 10
+    Counter = Counter + 1
+    Print "Counter=" & Counter
+    DoEvents
+Loop
+
+Pause
+End

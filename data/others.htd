@@ -1,0 +1,5 @@
+CAT=Data Types
+String,Integer,Long,Boolean,Variant,Byte,Double,Currency
+
+CAT=System Variables
+True,False,Rnd,Time,Date,FreeFile,App.Path,Dir,Null

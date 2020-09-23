@@ -1,0 +1,4 @@
+REM Remove a folder
+RmDir "C:\TestFolder"
+PAUSE
+END

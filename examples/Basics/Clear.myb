@@ -1,0 +1,24 @@
+REM Using CLEAR ro reset variables
+
+Dim Num1 As Integer
+Dim Num2 As Long
+Dim StrA As String
+
+StrA = "Test String"
+Num1 = 65
+Num2 = 655356
+PRINT "Value of StrA =" & StrA
+PRINT "Value of Num1 =" & Num1
+PRINT "Value of Num2 =" & Num2
+PRINT ""
+PRINT "Reseting StrA Variable"
+CLEAR StrA
+PRINT "Value of StrA =" & StrA
+PRINT ""
+PRINT "Reseting Al Variables"
+CLEAR
+PRINT "Value of StrA =" & StrA
+PRINT "Value of Num1 =" & Num1
+PRINT "Value of Num2 =" & Num2
+PAUSE
+END

@@ -1,0 +1,24 @@
+REM Demostration of a for loop
+REM that can print out a set of times tables.
+
+Dim Counter As Integer
+Dim Ans As Integer
+Dim Table As Integer
+Dim sLine As String
+
+Input "Enter a Number 1 to 12",Table
+CLS
+Print "Your choice was:" & Table
+Print ""
+Print "Here is the times table listing for your choise:"
+Print ""
+
+For Counter = 1 To 12
+    Ans = (Counter * Table)
+    sLine = Counter & " * " & Table & " = " &  Ans
+    Print sLine
+Next
+
+PAUSE
+END
+

@@ -1,0 +1,16 @@
+REM Goto Test
+CLS
+PRINT "Hello World"
+BEEP
+GOTO a_Test:
+
+Test_6:
+PRINT "Hello Line 6"
+PRINT "The End"
+PAUSE
+END
+
+a_Test:
+PRINT "Hello a_Test: Line"
+BEEP
+GOTO Test_6:

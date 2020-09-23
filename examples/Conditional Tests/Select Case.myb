@@ -1,0 +1,29 @@
+REM Select Case Demo
+
+DIM Option As Variant
+CLS
+
+PRINT "--------------------"
+PRINT "1 Show the Time"
+PRINT "2 Show the Date"
+PRINT "3 Exit Program"
+PRINT "--------------------"
+
+INPUT "Enter a Option",Option
+
+SELECT CASE Option
+    Case 1
+        CLS
+        PRINT "Current Time is:" & null & Time
+        Exit
+    Case 2
+        CLS
+        PRINT "Current Date is: " & null & Date
+        Exit
+    Case 3
+       PRINT "Good Bye Now"
+       PAUSE
+       END
+END SELECT
+
+END

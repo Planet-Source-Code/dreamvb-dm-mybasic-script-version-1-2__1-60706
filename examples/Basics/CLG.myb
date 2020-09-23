@@ -1,0 +1,15 @@
+PRINT "Clear the screen"
+PAUSE
+CLS
+PRINT "SOME TEXT"
+PRINT "SOME MORE TEXT"
+PRINT "A"
+PRINT "B"
+PAUSE
+CLG
+PRINT "Screen Cleared to the last cursor position"
+PAUSE
+CLS
+PRINT "Back to Normal"
+PAUSE
+END

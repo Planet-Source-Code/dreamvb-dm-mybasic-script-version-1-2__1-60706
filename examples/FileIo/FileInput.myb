@@ -1,0 +1,18 @@
+Dim File As String
+Dim nFile As Long
+Dim Counter As Long
+Dim sLine As String
+
+nFile = FreeFile
+File = "C:\tables.txt"
+
+Open [File] for input as #nFile
+Do
+    Input #nFile, sLine
+    Print sLine
+    DoEvents
+Loop Until Eof(nFile)
+Close #nFile
+
+PAUSE
+End

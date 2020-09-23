@@ -1,0 +1,22 @@
+Compiling the project.
+
+Open Visual Basic or double click Make.vbg. Once in VB File->Make Project Group
+This will then create devEnv.exe in this folder.
+and also engine\engine.exe
+
+Also see EnvR\gcc\Readme.txt for information on the EnvR tool.
+
+That’s it your finished.
+For help docs see docs\
+
+One quick note I have left a Batch file for UPX.
+You can use it compress engine.exe if needed.
+
+UPX can be freely downloadable from http://www.upx.org/
+Once downloaded place the UPX program inside the engine folder and run the UPX batch file
+
+Note update should be ready soon. But if you can’t wait then you can
+Find any nightly builds or updates from the live update program in the IDE
+
+Last-update
+12:13 PM 5/22/2001

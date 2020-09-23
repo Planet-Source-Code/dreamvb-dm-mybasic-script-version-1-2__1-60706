@@ -1,0 +1,9 @@
+REM For Loop Example
+Dim Counter As Integer
+
+For Counter = 1 To 10
+    Print "Counter=" & Counter
+Next
+
+Pause
+End

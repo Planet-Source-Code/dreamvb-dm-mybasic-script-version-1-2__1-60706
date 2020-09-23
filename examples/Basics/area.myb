@@ -1,0 +1,11 @@
+REM Show the Area of a Room
+
+DIM Height AS INTEGER
+DIM Width AS INTEGER
+DIM Area AS INTEGER
+LET Height = 30
+LET Width = 60
+LET Area = (Height * Width)
+PRINT "Area of room is: " & null & Area
+PAUSE
+END

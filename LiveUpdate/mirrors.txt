@@ -1,0 +1,2 @@
+Mirror=eRayStudios|http://www.eraystudios.co.uk/dmscript/updates.dat
+Mirror=GameJay|http://www.dmbasic.gamejay.com/updates.dat

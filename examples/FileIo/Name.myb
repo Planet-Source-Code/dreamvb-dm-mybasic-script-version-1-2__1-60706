@@ -1,0 +1,12 @@
+REM Rename a Given File
+Dim OldFile As String
+Dim NewFile As string
+
+OldFile = "C:\tables.txt"
+NewFile = "C:\TimesTables.txt"
+
+Name OldFile As NewFile
+
+
+PAUSE
+END

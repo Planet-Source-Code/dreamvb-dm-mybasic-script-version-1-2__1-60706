@@ -1,0 +1,7 @@
+REM My First Program
+CLS
+PRINT "Hello World"
+PRINT "Power Programming"
+BEEP
+PAUSE
+END

@@ -1,0 +1,7 @@
+Rem Chnage current Path
+
+Print "CurrentPath: " & App.Path
+ChDir "C:\Windows\"
+Print "New Path: " & App.Path
+PAUSE
+END

@@ -1,0 +1,10 @@
+REM Array Function Example
+Dim Test As Variant
+Dim B as Integer
+
+    Test = Array(10,12,64,128,254,1025,18,45)
+    B = Test(1) + Test(6)
+    Print B
+    Pause
+    End
+

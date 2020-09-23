@@ -1,0 +1,15 @@
+CAT=Strings
+Asc,Chr,LCase,Left,Len,Mid,MonthName,RevNull,Right,Space,Split,Str,StrComp
+,StrConv,String,StrReverse,UCase
+
+CAT=Math
+Abs,Atn,Cos,Eval,Exp,Int,IsFloat,IsNumeric,Log10,Log,Rnd,Sin,Sqr,Tan
+
+CAT=DateTime
+IsDate,Date,Time
+
+CAT=FileIo
+CurDir,Dir,Eof,FileDateTime,FileLen,Loc,Lof,Shell
+
+CAT=Others
+Array,Environ,LBound,UBound,VarType

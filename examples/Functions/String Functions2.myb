@@ -1,0 +1,32 @@
+Dim StrString As String
+Dim Temp As String
+Rem Mid Test
+StrString = "Working With Strings"
+Temp = Mid(StrString, 1, 4)
+Print Temp
+Print ""
+
+Rem Left Test
+Temp = Left(StrString, 7)
+Print Temp
+
+Rem Right Test
+Temp = Right(StrString, 7)
+Print Temp
+
+Rem String Test
+Print String(10, "a")
+
+Rem StrComv
+Print ""
+Print StrConv(StrString, 1)
+Print StrConv(StrString, 2)
+Print ""
+Rem Compare
+Print StrComp("Hello", "HellO", 0)
+Print StrComp("Ben", "ben")
+Print StrComp("This", "This", 1)
+Print ""
+Rem Month Name
+Print "Month Name: " & MonthName(1)
+Print "Month Name Abbreviate: " & MonthName(1, True)

@@ -1,0 +1,4 @@
+REM Delete a File
+Kill "C:\tables.txt"
+PAUSE
+END

@@ -1,0 +1,14 @@
+REM Input Example
+COLOR 12,30
+CLS
+PRINT "Cool Colors Yellow on Blue"
+PAUSE
+COLOR 16,128
+CLS
+PRINT "Nise shade of Gray you got there"
+PAUSE
+COLOR 15,15
+CLS
+PRINT "Back to normal"
+PAUSE
+END
