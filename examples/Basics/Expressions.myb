@@ -1,0 +1,10 @@
+REM My Second Program
+REM Testing simple expressions
+CLS
+PRINT "Expressions"
+PRINT 5
+PRINT 5 + 5
+PRINT 5 + (5 * 2)
+PRINT (5+5) * 2
+PAUSE
+END

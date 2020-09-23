@@ -1,0 +1,8 @@
+REM Run a Program
+
+Shell "c:\WINDOWS\NOTEPAD.EXE", 1
+REM Send Hello world to notepad
+SendKeys "Hello World"
+
+PAUSE
+END

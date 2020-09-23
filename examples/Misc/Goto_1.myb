@@ -1,0 +1,14 @@
+CLS
+BEEP
+PRINT "HELLO WORLD"
+GOTO 10:
+10:
+PRINT "Hello goto label 10"
+GOTO Test_Lab:
+PRINT "Not show this line"
+CLS
+Test_Lab:
+PRINT "THE END"
+BEEP
+PAUSE
+END

@@ -1,0 +1,27 @@
+Comment Header Tags
+
+You can use comment header to show information on your scripts. 
+This can include your user name date or time a list below shows the tags.
+
+Please note that some tags will not show. At once so you will need to save your scripts before adding the comment header. 
+This is only if you intend to use the extended tag information.
+
+To edit the Comment Header you can open the text file in note pad.
+Or from the IDE go to Tool->Options see comment header
+
+Comment Header Text file is located in your data folder 
+\data\Comment header.txt
+
+Basic Tags that work for new scripts and saved scripts
+
+%User – 	Replaces tag with the current user name
+%Date – 	Replaces tag with the current Date
+%Time – 	Replaces tag with the current Time
+%OS – 		Replaces tag with the current OS Type ex Win32 or Windows_NT
+%EnvName 	Replaces tag with the current environment name
+
+Extended tags. The tags below only show once a file has been saved.
+
+%FileName 	Replaces tag with the current scripts filename
+%FileSize 	Replaces tag with the current scripts file size
+%ScriptPath 	Replaces tag with the current scripts file path

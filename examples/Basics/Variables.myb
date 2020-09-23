@@ -1,0 +1,20 @@
+Rem Using Variables
+
+DIM MyNum As Integer
+DIM MyStr As String
+DIM MyFloat As Currency
+DIM MyLong As Long
+DIM MyInt As Integer
+
+MyNum = 16
+PRINT "Value of MyNum " & null & MyNum
+MyStr = "Power Programming"
+PRINT "MyStr=" & MyStr
+MyFloat = 1.5
+PRINT "MyFloat=" & MyFloat
+MyLong = 65535
+PRINT "MyLong=" & MyLong
+MyInt = (8 * 16)
+Print "MyInt=" & MyInt
+PAUSE
+END

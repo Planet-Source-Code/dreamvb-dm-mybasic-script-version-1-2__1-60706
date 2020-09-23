@@ -1,0 +1,13 @@
+REM LET Keyword for assignments
+DIM NUM AS INTEGER
+NUM = 1
+PRINT NUM
+REM Add one to the number using our new assign method
+NUM = NUM + 5
+PRINT NUM
+LET NUM = NUM + 1
+PRINT NUM
+NUM = (NUM  * 2)
+PRINT NUM
+PAUSE
+END

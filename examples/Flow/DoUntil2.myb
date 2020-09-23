@@ -1,0 +1,13 @@
+REM Example of a Do Until Loop
+Dim Counter As Integer
+
+Counter = 10
+
+Do Until Counter = 0
+    Counter = Counter - 1
+    Print "Counter=" & Counter
+    DoEvents
+Loop
+
+Pause
+End

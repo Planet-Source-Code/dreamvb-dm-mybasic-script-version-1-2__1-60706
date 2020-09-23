@@ -1,0 +1,16 @@
+REM Split String Example
+
+Dim Month As Variant
+Dim x As Integer
+
+    Month = Split("Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Dec", ",")
+    Print "Lower Bound =  " & LBound(Month)
+    Print "Upper Bound =  " & UBound(Month)
+    Print ""
+
+    For x = LBound(Month) To UBound(Month)
+          Print Month(x)
+    Next
+
+    Pause
+    End

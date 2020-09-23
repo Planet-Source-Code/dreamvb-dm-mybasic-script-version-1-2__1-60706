@@ -1,0 +1,28 @@
+REM Print Dir
+REM Prints a listing of all files in C:\Windows\ Folder
+
+Dim x As String
+Dim Count As Integer
+Dim FileName As String
+Dim Path As String
+Dim sBuff as string
+
+Input "Enter a folders path ex C:\windows\", Path
+Print ""
+
+x = Dir(Path)
+
+Do Until x = ""
+    FileName = Path & x
+    Print FileDateTime(FileName) & Chr(9) & FileLen(FileName) & Chr(9) & x
+    x = Dir
+    DoEvents
+    Count = Count + 1
+Loop
+
+Print ""
+PRINT sBuff
+Print Count & " Files Were Found"
+
+Pause
+End

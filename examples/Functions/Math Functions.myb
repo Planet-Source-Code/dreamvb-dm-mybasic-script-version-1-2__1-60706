@@ -1,0 +1,38 @@
+REM Basic Math Functions
+
+Dim Number As Integer
+Dim sNum as Double
+CONST pi = 27/7
+
+REM ABS
+Number = Abs(-6)
+PRINT "Abs(-5) = " & Number
+REM ATN
+PRINT "Atn(10) = " & Atn(10)
+REM SIN
+sNum = Sin(pi / 180)
+PRINT "Sin(pi/180) = " & sNum
+REM COS
+sNum = Cos(pi / 180)
+PRINT "Cos(pi/180) = " & sNum
+PRINT ""
+REM EXP
+PRINT "Exp(1) = " & Exp(1)
+REM LOG
+PRINT "Log(2) = " & Log(2)
+REM Log10
+PRINT "Log10(1000) = " & Log10(1000)
+PRINT ""
+REM RND
+PRINT "Rnd = " & Rnd
+REM Using INT to Convert
+Number = Int(Rnd * 10)
+PRINT "Int(Rnd * 10) = " & Number
+REM SQR
+PRINT "Sqr(9) = " & Sqr(9)
+REM Test for Floating Point Numbers
+PRINT "IsFloat(10.54) = " &  IsFloat(10.54)
+PRINT "IsFloat(.63) = " &  IsFloat(.63)
+PRINT "IsFloat(10/10) = " & IsFloat(10/10)
+PAUSE
+END

@@ -1,0 +1,33 @@
+REM Basic String Functions
+Dim sTest As String
+
+REM Returns a letter from it's char code
+sTest = chr(65)+chr(66)+chr(67)
+PRINT sTest
+
+REM Return the length of a string
+sTest = "Hello World"
+PRINT sTest & " is: " & Len(sTest)  & " Chars in length"
+
+REM Print a string uppercase
+sTest = UCase("Hello World")
+PRINT sTest & " is now upper case"
+
+REM Print a string lowercase
+sTest = LCase("Hello World")
+PRINT sTest & " is now lower case"
+PRINT ""
+
+REM Reverse a String
+sTest = "Hello World"
+PRINT "Original String:" & sTest
+sTest = StrReverse(sTest)
+PRINT "Reversed String:" & sTest
+PRINT ""
+
+REM Append a space to a string
+sTest = null & Space(10) & "'Hello World' has been spaces by 10 places"
+
+PRINT sTest
+PAUSE
+END

@@ -1,0 +1,6 @@
+REM Time and Date
+PRINT "The Time is:" & Time
+Beep
+PRINT "The Date is:" & Date
+PAUSE
+END

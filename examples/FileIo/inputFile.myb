@@ -1,0 +1,15 @@
+Dim File As String
+Dim nFile As Long
+Dim sBuffer As String
+
+nFile = FreeFile
+File = "C:\tables.txt"
+
+Open [File] for input as #nFile
+    sBuffer = Input(lof(nFile), #nFile)
+Close #nFile
+
+Print sBuffer
+
+PAUSE
+End

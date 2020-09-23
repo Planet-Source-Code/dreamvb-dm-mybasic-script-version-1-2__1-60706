@@ -1,0 +1,6 @@
+REM Input Example
+DIM StrTest As String
+StrTest = "Hello World New Assign not using Let"
+PRINT StrTest
+PAUSE
+END

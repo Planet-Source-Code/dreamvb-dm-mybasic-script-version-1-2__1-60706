@@ -1,0 +1,22 @@
+REM Simple decimal to binary example
+
+Dim dec as long
+Dim Num as long
+Dim bCheck as boolean
+Dim bin as string
+
+input "Enter a decimal number:", num
+Cls
+
+dec = num
+
+do
+    bCheck = (dec % 2)
+    bin = bCheck & bin
+    dec = dec \ 2
+loop until dec = 0
+
+Print Num & " in binary is " & bin
+
+pause
+End

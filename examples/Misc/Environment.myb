@@ -1,0 +1,5 @@
+
+PRINT 5 % 2
+PRINT "Your Operating system is:" & Environ("OS")
+PAUSE
+END

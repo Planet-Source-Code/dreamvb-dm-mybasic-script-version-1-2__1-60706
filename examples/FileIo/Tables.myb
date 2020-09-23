@@ -1,0 +1,26 @@
+REM Basic For Loop Nesting not yet supported
+
+Dim Counter As Integer
+Dim Ans As Integer
+Dim Table As Integer
+Dim sLine As String
+
+Input "Enter a Number 1 to 12",Table
+CLS
+Print "Your choice was:" & Table
+Print ""
+
+For Counter = 1 To 12
+    Ans = (Counter * Table)
+    sLine = sLine & Counter & " * " & Table & " = " &  Ans & chr(13) & chr(10)
+Next
+
+Print "Your times table listing has been saved to c:\tables.txt"
+
+Open ["C:\tables.txt"] for output as #2
+      Print #2,sLine
+Close #2
+
+PAUSE
+END
+

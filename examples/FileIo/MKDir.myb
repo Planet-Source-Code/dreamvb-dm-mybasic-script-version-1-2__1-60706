@@ -1,0 +1,5 @@
+REM Make a new folder
+
+MkDir "C:\TestFolder"
+PAUSE
+END
